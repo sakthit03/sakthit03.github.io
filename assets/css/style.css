@@ -1,67 +1,80 @@
-*{
+* {
     outline: none;
     margin: 0px;
     padding: 0px;
 }
 
-.justify-center{
+.page_container {
+    padding: 0px 10%;
+}
+
+.justify-center {
     display: flex;
     justify-content: center;
 }
 
-.no-padding{
+.no-padding {
     padding: 0px !important;
 }
 
-.text-right{
+.text-right {
     text-align: right !important;
 }
 
-.text-center{
+.text-center {
     text-align: center !important;
 }
 
-
-.main-container{
+.main-container {
     display: block;
     width: 100%;
     height: 100%;
-    background-color: azure;
+    background-color: #dff0f7;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 5%;
 }
 
-.profile-bg{
-    width: 60%;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    position: relative;
-    top:100px;
-    border-radius: 10px;
+.profile-bg-color {
+    background-color: #f44336;
 }
 
-.profile-img{
-    width:70%;
+.profile-img {
+    width: 50%;
+    margin: 10%;
     object-fit: contain;
     border-radius: 50%;
     box-shadow: 0px 0px 10px red;
-    border:1px solid grey;
-    
+    border: 1px solid grey;
 }
 
-.profile-txt{
-    color: #fff;
+.ptofile-title-name {
+    margin: 8% 0px !important;
+    padding: 5% 2% !important;
+}
+
+.sub-title {
+    font-size: x-large;
+    font-weight: 700;
+    color: #f44336;
+    text-transform: capitalize;
+}
+
+.profile-txt {
     font-size: 18px;
     font-family: cursive;
 }
 
-.profile-section-bg{
+.text-white {
+    color: #fff !important;
+}
+
+.profile-section-bg {
     background-color: #31708f;
     position: relative;
 }
 
-.page-title{
+.page-title {
     color: #fff;
     font-family: sans-serif;
     position: absolute;
@@ -69,18 +82,44 @@
     padding: 0px;
 }
 
-.text-white{
+.text-white {
     color: #fff;
 }
 
-.m-10{
+.m-10 {
     margin: 10px !important;
 }
 
-.profile-bg .picture-container{
+.picture-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.dark-bg {
+    background-color: darkslategrey;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.margin-vertical-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+
+/* no styles */
+
+.no-padding {
+    padding: 0px;
+}
+
+.no-margin {
+    margin: 0px;
 }
