@@ -1,0 +1,28 @@
+.page-load-spinner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    z-index: 999999;
+}
+
+.spinner-img {
+    width: 100px;
+    height: 100px;
+    animation: loading-spinner-ani 1s linear infinite;
+}
+
+@keyframes loading-spinner-ani {
+    from {
+        transform: deg(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
