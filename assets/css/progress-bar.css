@@ -18,7 +18,7 @@
 
 .progress_bar .progress_number {
     float: right;
-    /* margin-top: -24px; */
+    margin-top: -24px; 
 }
 
 .progress_bar .progress-bar-inner {
